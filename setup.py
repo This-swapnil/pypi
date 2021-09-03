@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="preprocessing",  # How you named your package folder (MyLib)
-    packages=["preprocessing"],  # Chose the same as "name"
+    name="cleaning",  # How you named your package folder (MyLib)
+    packages=["cleaning"],  # Chose the same as "name"
     version="0.1",  # Start with a small number and increase it with every change you make
     license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description="Data cleaning and preprocessing",  # Give a short description about your library
@@ -12,8 +12,8 @@ setup(
     download_url="https://github.com/This-swapnil/pypi/archive/refs/tags/v0.1.tar.gz",  # I explain this later on
     keywords=["preprocessing", "cleaning"],  # Keywords that define your package best
     install_requires=[  # I get to this in a second
-        "validators",
-        "beautifulsoup4",
+        "scikit-learn",
+        "pandas",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",  # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
