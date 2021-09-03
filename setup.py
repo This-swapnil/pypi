@@ -9,7 +9,7 @@ setup(
     author="swapnil sonawane",  # Type in your name
     author_email="sswapnil0098@gmail.com",  # Type in your E-Mail
     url="https://github.com/This-swapnil/pypi",  # Provide either the link to your github or to your website
-    download_url="https://github.com/This-swapnil/pypi/archive/v_01.tar.gz",  # I explain this later on
+    download_url="https://github.com/This-swapnil/pypi/archive/refs/tags/v0.1.tar.gz",  # I explain this later on
     keywords=["preprocessing", "cleaning"],  # Keywords that define your package best
     install_requires=[  # I get to this in a second
         "validators",
